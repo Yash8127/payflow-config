@@ -2,7 +2,7 @@ spring:
   cloud:
     gateway:
       server:
-        webmvc:
+        webflux:
           discovery:
             locator:
               enabled: true

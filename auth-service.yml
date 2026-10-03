@@ -16,3 +16,7 @@ spring:
 payflow:
   service:
     message: "Auth Service Config Server is working"
+
+  jwt:
+    secret: ${JWT_SECRET}
+    expiration: 3600000

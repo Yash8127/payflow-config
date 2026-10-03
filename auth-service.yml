@@ -1,0 +1,3 @@
+payflow:
+  service:
+    message: "Auth Service Config Server is working"

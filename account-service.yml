@@ -16,3 +16,6 @@ spring:
 payflow:
   service:
     message: "Account Service Config Server is working"
+    
+  jwt:
+    secret: ${JWT_SECRET}

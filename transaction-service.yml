@@ -16,3 +16,4 @@ spring:
 payflow:
   service:
     message: "Transaction Service Config Server is working"
+    internal-key: ${PAYFLOW_INTERNAL_KEY}

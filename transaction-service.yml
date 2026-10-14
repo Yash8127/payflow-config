@@ -19,6 +19,14 @@ spring:
       hibernate:
         format_sql: true
 
+  cloud:
+    openfeign:
+      client:
+        config:
+          account-service:
+            connectTimeout: 2000
+            readTimeout: 3000
+
 payflow:
   service:
     message: "Transaction Service Config Server is working"

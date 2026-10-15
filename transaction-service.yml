@@ -46,6 +46,9 @@ resilience4j:
         permittedNumberOfCallsInHalfOpenState: 2
 
 management:
+  server:
+    address: 127.0.0.1
+    port: 8085
   endpoints:
     web:
       exposure:
